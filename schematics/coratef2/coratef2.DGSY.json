@@ -10,7 +10,37 @@
       "restrictTertiaryLevel" : "N",
       "children" : [ {
         "children" : [ {
-          "children" : [ ],
+          "children" : [ {
+            "chartType" : "B",
+            "children" : [ ],
+            "code" : 174025387,
+            "componentType" : "WCHART",
+            "customProperties" : {
+              "checkReportRelease" : "S",
+              "showValue" : "S",
+              "sortAscending" : "S",
+              "tooltipGrouped" : "S",
+              "withZoom" : "N"
+            },
+            "description" : "Graph",
+            "dictionaryCode" : 174074610,
+            "displayOrder" : 1,
+            "metadataFile" : true,
+            "objectType" : "COMPONENT",
+            "params" : [ {
+              "code" : 174165384,
+              "function" : 0,
+              "masterCode" : 26680,
+              "masterName" : "CD_SETOR_ATENDIMENTO",
+              "originParam" : "OBJECT",
+              "parameterCode" : 0,
+              "parameterName" : "CD_SETOR_ATENDIMENTO",
+              "parameterSeq" : 0,
+              "parentObjectCode" : 174025387
+            } ],
+            "parentObjectCode" : 173869285,
+            "reports" : [ ]
+          } ],
           "code" : 173869285,
           "description" : "Region 0",
           "displayOrder" : 1,
