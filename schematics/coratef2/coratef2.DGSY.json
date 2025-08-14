@@ -1,0 +1,48 @@
+{
+  "identifier" : "DGSY",
+  "migrations" : [ {
+    "op" : "add",
+    "path" : "/children/code:26667/children/code:26678/children/code:26679/children/code:26680/children/code:26682/children/code:26762/children/code:173725577",
+    "value" : {
+      "allowCmdkCustomization" : true,
+      "restrictPrimaryLevel" : "N",
+      "restrictSecondaryLevel" : "N",
+      "restrictTertiaryLevel" : "N",
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "code" : 173869285,
+          "description" : "Region 0",
+          "displayOrder" : 1,
+          "objectType" : "REGION",
+          "parentObjectCode" : 173869284
+        } ],
+        "code" : 173869284,
+        "description" : "Master region",
+        "masterRegionType" : "LAYOUT_A",
+        "objectType" : "MASTER_REGION",
+        "parentObjectCode" : 173725577
+      } ],
+      "code" : 173725577,
+      "configurable" : true,
+      "hasObjSchemRules" : false,
+      "description" : "Graph",
+      "displayOrder" : 19,
+      "expressionCode" : 290953,
+      "expressionDescription" : "Graph",
+      "objectType" : "TAB",
+      "parentObjectCode" : 26762,
+      "topList" : false,
+      "visible" : "S"
+    }
+  }, {
+    "op" : "replace",
+    "path" : "/children/code:26667/children/code:26678/children/code:26679/children/code:26680/children/code:26682/children/code:26762/selectedNavigatorItem",
+    "value" : 26880
+  }, {
+    "op" : "replace",
+    "path" : "/version",
+    "value" : "1.7.0"
+  } ],
+  "type" : "PARTNER"
+}
